@@ -3,10 +3,11 @@ A simple node script that takes two json files and compare their keys and shows 
 
 Typical use is to find differences between two language files and to find out if one file is missing translations.
 
-
+```
 Execute like so: node difflangFiles.js "C:\full\path\to\en.json" "C:\full\path\to\sv.json"
-
+```
 ## Example output
+```
 Compare:
    A: en.json
    B: sv.json
@@ -25,3 +26,4 @@ Compare:
 
  621 keys were compared
  A and B does not contain the same keys
+ ```
