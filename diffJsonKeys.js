@@ -1,4 +1,4 @@
-// execute like so: node difflangFiles.js "C:\full\path\to\en.json" "C:\full\path\to\sv.json"
+// execute like so: node diffJsonKeys.js "C:\full\path\to\en.json" "C:\full\path\to\sv.json"
 var fs = require('fs');
 const ColorReset = "\x1b[0m";
 const FgRed = "\x1b[31m";
