@@ -3,8 +3,9 @@ A simple node script that takes two json files and compare their keys and shows 
 
 Typical use is to find differences between two language files and to find out if one file is missing translations.
 
+## How to execute
 ```
-Execute like so: node difflangFiles.js "C:\full\path\to\en.json" "C:\full\path\to\sv.json"
+node difflangFiles.js "C:\full\path\to\en.json" "C:\full\path\to\sv.json"
 ```
 ## Example output
 ```
